@@ -1,8 +1,7 @@
 {
-  "name": "the-flying-crow-salesman-company-simple",
+  "name": "the-flying-crow-salesman",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "homepage": "https://supercoins.github.io/the-flying-crow-salesman/",
   "scripts": {
     "build": "./node_modules/.bin/webpack",
     "build:prod": "./node_modules/.bin/webpack -p",
