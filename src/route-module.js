@@ -66,7 +66,7 @@ function getBestRoute() {
             totalDistance: getRouteDistance(route)
         };
     });
-    return _.maxBy(routesAndDistance, 'totalDistance');
+    return _.minBy(routesAndDistance, 'totalDistance');
 }
 
 /**
